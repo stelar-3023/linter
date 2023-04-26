@@ -52,7 +52,7 @@ public class App {
                     }
                 }
                 // if all false, print error message
-                errorMessage += "Line " + lineNumber + ": Missing semicolon.\n";
+                errorMessage = "Line " + lineNumber + ": Missing semicolon.\n";
                 System.out.println(errorMessage);
             }
 
